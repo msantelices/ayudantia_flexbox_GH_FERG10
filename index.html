@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">
+            <span>&#60;</span>FER-G10<span>/&#62;</span>
+        </a>
+
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Destacados</a>
+            </li>
+            <li>
+                <a href="#">Nosotros</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="post">
+            <header>
+                <h1>¿Qué es flexbox y cómo utilizarlo?</h1>
+                <img class="thumbnail" src="https://dejuniorasenior.com/wp-content/uploads/2022/03/flexbox-css.png" alt="CSS Flexbox">
+            </header>
+
+            <article class="content">
+                <p>
+                    Flexbox, también conocido como Flexible Box Layout, es un modelo de diseño de cajas en CSS que permite 
+                    crear diseños flexibles y adaptables a diferentes tamaños de pantalla y dispositivos. 
+                    Se basa en un sistema de cajas flexibles que se pueden organizar en una fila o columna, y se ajustan 
+                    automáticamente para llenar el espacio disponible. Flexbox es ideal para crear diseños responsivos y 
+                    centrados en el contenido.
+                </p>
+
+                <p>
+                    Para utilizar Flexbox, se definen propiedades en el contenedor principal y en los elementos secundarios 
+                    que se encuentran dentro. Al establecer el contenedor principal como un "flex container" mediante la 
+                    propiedad <b>display: flex</b>, los elementos secundarios se convierten automáticamente en "flex items". 
+                    Luego, se pueden aplicar propiedades como <b>flex-direction</b>, para definir si los elementos deben 
+                    organizarse en una fila o columna, y <b>justify-content</b> y <b>align-items</b>, para controlar la alineación 
+                    horizontal y vertical de los elementos dentro del contenedor.
+                </p>
+
+                <p>
+                    Además, Flexbox ofrece una serie de propiedades adicionales, como <b>flex-grow</b>, <b>flex-shrink</b> y <b>flex-basis</b>, 
+                    para controlar cómo los elementos flexibles se expanden, se contraen y se distribuyen en el espacio disponible. 
+                    También se pueden utilizar propiedades como <b>order</b> para cambiar el orden de los elementos y <b>align-self</b> para 
+                    controlar la alineación individual de cada elemento dentro del contenedor flex. En resumen, 
+                    Flexbox proporciona una forma poderosa y fácil de crear diseños flexibles y responsivos en CSS.
+                </p>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Últimos posts</h3>
+
+                <ul class="last-posts">
+                    <li>
+                        <a href="#">Utilizando CSS Grid</a>
+                    </li>
+                    <li>
+                        <a href="#">¿Cómo publicar una web en GitHub pages?</a>
+                    </li>
+                    <li>
+                        <a href="#">5 tips para trabajar colaborativamente en GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#">React, Vue o Angular. ¿Qué framework elegir?</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>Categorías</h3>
+
+                <ul class="categories">
+                    <li>
+                        <a href="#">Desarrollo web</a>
+                    </li>
+                    <li>
+                        <a href="#">Diseño UX/UI</a>
+                    </li>
+                    <li>
+                        <a href="#">Backend</a>
+                    </li>
+                    <li>
+                        <a href="#">Data Science</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+
+
+    <footer>
+        <p>FER-G10 - 2023. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
