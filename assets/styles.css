@@ -23,6 +23,7 @@ a:hover {
     color: #729e2e;
 }
 
+
 nav .logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -37,13 +38,23 @@ nav a {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
     padding: 1rem 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+
 }
 
 nav ul li {
     margin-left: 0.5rem;
     font-weight: 700;
+    
 }
 
 main {
