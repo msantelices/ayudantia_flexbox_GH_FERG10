@@ -57,10 +57,15 @@ nav ul li {
     
 }
 
+.thumbnail { width:100%;
+
+}
+
 main {
     width: 90%;
     max-width: 1300px;
     margin: 3rem auto;
+    display: flex;
 }
 
 header h1 {
@@ -80,6 +85,12 @@ header h1 {
 main .sidebar .widget {
     margin-bottom: 4rem;
 }
+.sidebar { 
+    width:20%;
+    padding:2rem;
+
+
+}
 
 .sidebar .widget h3 {
     margin-bottom: 2rem;
@@ -97,7 +108,9 @@ main .sidebar .widget {
     text-decoration: none;
     font-weight: 700;
 }
+.post { width: 80%;
 
+}
 
 footer {
     padding: 1rem;
